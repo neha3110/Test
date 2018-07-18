@@ -34,7 +34,7 @@ public class CommonMe {
 				
 				
 				else if(obj1.equalsIgnoreCase("Firefox")) {
-					System.setProperty("webdriver.gecko.driver", "D:\\Appiums-Jars-Training\\geckodriver.exe");
+					System.setProperty("Webdriver.gecko.driver", "D:\\Appiums-Jars-Training\\ff\\geckodriver.exe");
 					
 					driver = new FirefoxDriver();
 				}
