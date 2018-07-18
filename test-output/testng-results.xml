@@ -1,98 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="4" passed="3">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="44168" started-at="2018-07-18T06:48:11Z" finished-at="2018-07-18T06:48:55Z">
+  <suite name="Default suite" duration-ms="48620" started-at="2018-07-18T11:22:59Z" finished-at="2018-07-18T11:23:48Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="44168" started-at="2018-07-18T06:48:11Z" finished-at="2018-07-18T06:48:55Z">
-      <class name="testRun.ExtentReportDemo2">
-        <test-method status="PASS" signature="setup()[pri:0, instance:testRun.ExtentReportDemo2@5702b3b1]" name="setup" is-config="true" duration-ms="249" started-at="2018-07-18T12:18:40Z" finished-at="2018-07-18T12:18:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="loginTest()[pri:0, instance:testRun.ExtentReportDemo2@5702b3b1]" name="loginTest" duration-ms="7954" started-at="2018-07-18T12:18:41Z" finished-at="2018-07-18T12:18:49Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:496)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at org.testng.Assert.assertTrue(Assert.java:52)
-	at testRun.ExtentReportDemo2.loginTest(ExtentReportDemo2.java:52)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testRun.ExtentReportDemo2@5702b3b1]" name="tearDown" is-config="true" duration-ms="3762" started-at="2018-07-18T12:18:49Z" finished-at="2018-07-18T12:18:52Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=loginTest status=FAILURE method=ExtentReportDemo2.loginTest()[pri:0, instance:testRun.ExtentReportDemo2@5702b3b1] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testRun.ExtentReportDemo2 -->
+    <test name="Default test" duration-ms="48620" started-at="2018-07-18T11:22:59Z" finished-at="2018-07-18T11:23:48Z">
       <class name="testRun.LoginTestRun">
-        <test-method status="PASS" signature="setup1()[pri:0, instance:testRun.LoginTestRun@25bbe1b6]" name="setup1" is-config="true" duration-ms="29419" started-at="2018-07-18T12:18:11Z" finished-at="2018-07-18T12:18:40Z">
+        <test-method status="PASS" signature="setup1()[pri:0, instance:testRun.LoginTestRun@13805618]" name="setup1" is-config="true" duration-ms="40201" started-at="2018-07-18T16:52:59Z" finished-at="2018-07-18T16:53:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup1 -->
-        <test-method status="PASS" signature="clearall()[pri:0, instance:testRun.LoginTestRun@25bbe1b6]" name="clearall" is-config="true" duration-ms="161" started-at="2018-07-18T12:18:52Z" finished-at="2018-07-18T12:18:53Z">
+        <test-method status="PASS" signature="clearall()[pri:0, instance:testRun.LoginTestRun@13805618]" name="clearall" is-config="true" duration-ms="4931" started-at="2018-07-18T16:53:39Z" finished-at="2018-07-18T16:53:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearall -->
-        <test-method status="PASS" signature="loginInvalidData()[pri:1, instance:testRun.LoginTestRun@25bbe1b6]" name="loginInvalidData" duration-ms="535" started-at="2018-07-18T12:18:53Z" finished-at="2018-07-18T12:18:53Z">
+        <test-method status="PASS" signature="loginInvalidData()[pri:1, instance:testRun.LoginTestRun@13805618]" name="loginInvalidData" duration-ms="1145" started-at="2018-07-18T16:53:44Z" finished-at="2018-07-18T16:53:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginInvalidData -->
-        <test-method status="PASS" signature="clearall()[pri:0, instance:testRun.LoginTestRun@25bbe1b6]" name="clearall" is-config="true" duration-ms="68" started-at="2018-07-18T12:18:53Z" finished-at="2018-07-18T12:18:53Z">
+        <test-method status="PASS" signature="clearall()[pri:0, instance:testRun.LoginTestRun@13805618]" name="clearall" is-config="true" duration-ms="89" started-at="2018-07-18T16:53:46Z" finished-at="2018-07-18T16:53:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearall -->
-        <test-method status="PASS" signature="loginValidData()[pri:2, instance:testRun.LoginTestRun@25bbe1b6]" name="loginValidData" duration-ms="1899" started-at="2018-07-18T12:18:53Z" finished-at="2018-07-18T12:18:55Z">
+        <test-method status="PASS" signature="loginValidData()[pri:2, instance:testRun.LoginTestRun@13805618]" name="loginValidData" duration-ms="2207" started-at="2018-07-18T16:53:46Z" finished-at="2018-07-18T16:53:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginValidData -->
       </class> <!-- testRun.LoginTestRun -->
-      <class name="testRun.VerifyTitle">
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:testRun.VerifyTitle@69ea3742]" name="loginTest" duration-ms="79" started-at="2018-07-18T12:18:55Z" finished-at="2018-07-18T12:18:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-      </class> <!-- testRun.VerifyTitle -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
