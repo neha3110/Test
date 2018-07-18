@@ -18,7 +18,7 @@ public class Login extends CommonMe{
 		ob.maximize(driver);
 	}
 	
-	//Valid Data test
+	//Valid Data
 	public String loginTest(String user, String password) throws InterruptedException {
 		ob.impwait(20);
 		ob.EnterText(LoginpageLocators.username,user);

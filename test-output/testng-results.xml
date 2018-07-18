@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="48620" started-at="2018-07-18T11:22:59Z" finished-at="2018-07-18T11:23:48Z">
+  <suite name="TEST" duration-ms="23456" started-at="2018-07-18T12:10:35Z" finished-at="2018-07-18T12:10:58Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="48620" started-at="2018-07-18T11:22:59Z" finished-at="2018-07-18T11:23:48Z">
+    <test name="testing" duration-ms="23456" started-at="2018-07-18T12:10:35Z" finished-at="2018-07-18T12:10:58Z">
       <class name="testRun.LoginTestRun">
-        <test-method status="PASS" signature="setup1()[pri:0, instance:testRun.LoginTestRun@13805618]" name="setup1" is-config="true" duration-ms="40201" started-at="2018-07-18T16:52:59Z" finished-at="2018-07-18T16:53:39Z">
+        <test-method status="PASS" signature="setup1()[pri:0, instance:testRun.LoginTestRun@13805618]" name="setup1" is-config="true" duration-ms="20433" started-at="2018-07-18T17:40:35Z" finished-at="2018-07-18T17:40:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup1 -->
-        <test-method status="PASS" signature="clearall()[pri:0, instance:testRun.LoginTestRun@13805618]" name="clearall" is-config="true" duration-ms="4931" started-at="2018-07-18T16:53:39Z" finished-at="2018-07-18T16:53:44Z">
+        <test-method status="PASS" signature="clearall()[pri:0, instance:testRun.LoginTestRun@13805618]" name="clearall" is-config="true" duration-ms="93" started-at="2018-07-18T17:40:55Z" finished-at="2018-07-18T17:40:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearall -->
-        <test-method status="PASS" signature="loginInvalidData()[pri:1, instance:testRun.LoginTestRun@13805618]" name="loginInvalidData" duration-ms="1145" started-at="2018-07-18T16:53:44Z" finished-at="2018-07-18T16:53:46Z">
+        <test-method status="PASS" signature="loginInvalidData()[pri:1, instance:testRun.LoginTestRun@13805618]" name="loginInvalidData" duration-ms="640" started-at="2018-07-18T17:40:56Z" finished-at="2018-07-18T17:40:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginInvalidData -->
-        <test-method status="PASS" signature="clearall()[pri:0, instance:testRun.LoginTestRun@13805618]" name="clearall" is-config="true" duration-ms="89" started-at="2018-07-18T16:53:46Z" finished-at="2018-07-18T16:53:46Z">
+        <test-method status="PASS" signature="clearall()[pri:0, instance:testRun.LoginTestRun@13805618]" name="clearall" is-config="true" duration-ms="73" started-at="2018-07-18T17:40:56Z" finished-at="2018-07-18T17:40:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearall -->
-        <test-method status="PASS" signature="loginValidData()[pri:2, instance:testRun.LoginTestRun@13805618]" name="loginValidData" duration-ms="2207" started-at="2018-07-18T16:53:46Z" finished-at="2018-07-18T16:53:48Z">
+        <test-method status="PASS" signature="loginValidData()[pri:2, instance:testRun.LoginTestRun@13805618]" name="loginValidData" duration-ms="2189" started-at="2018-07-18T17:40:56Z" finished-at="2018-07-18T17:40:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginValidData -->
       </class> <!-- testRun.LoginTestRun -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- testing -->
+  </suite> <!-- TEST -->
 </testng-results>
