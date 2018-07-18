@@ -5,11 +5,17 @@
     <classes>
       <class name="testRun.LoginTestRun">
         <methods>
-          <include name="loginValidData"/>
+          <include name="clearall"/>
           <include name="setup1"/>
-          <include name="loginInvalidData"/>
         </methods>
       </class> <!-- testRun.LoginTestRun -->
+      <class name="testRun.ExtentReportDemo2">
+        <methods>
+          <include name="loginTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testRun.ExtentReportDemo2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

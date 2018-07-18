@@ -12,13 +12,13 @@ public class Login extends CommonMe{
 	
 	public void setup() {
 		
-		ob.OpenBrowser("Firefox");
+		ob.OpenBrowser("chrome");
 		ob.impwait(20);
 		ob.OpenUrl("https://stage.meethook.com");
 		ob.maximize(driver);
 	}
 	
-	//Valid Data
+	//Valid Data test
 	public String loginTest(String user, String password) throws InterruptedException {
 		ob.impwait(20);
 		ob.EnterText(LoginpageLocators.username,user);
